@@ -2,7 +2,7 @@ package abrigo;
 
 public class Gato {
 
-	//atributos = caracteristicas 
+	//atributos = caracteristicas de um gato relevantes para o cadastro do mesmo
 	private int id;
 	
 	private String raca;
@@ -103,7 +103,7 @@ public class Gato {
 	/*public Gato(int id, String raca) {
 		
 	}*/
-	
+	//método para facilitar a visualização dos dados da classe
 	public void visualizar() {
 		System.out.println("\n\n******************************************");
 		System.out.println(" ********* Dados do gatinho:"+this.id+" *********");
